@@ -1,0 +1,34 @@
+{
+  "name": "@firelayer/eslint-config",
+  "version": "0.0.0",
+  "description": "Firelayer eslint config",
+  "homepage": "https://github.com/firelayer/eslint-config/tree/master/packages/eslint-config",
+  "keywords": [
+    "firelayer",
+    "eslint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firelayer/eslint-config.git",
+    "directory": "packages/eslint-config"
+  },
+  "bugs": {
+    "url": "https://github.com/firelayer/eslint-config/issues"
+  },
+  "license": "MIT",
+  "author": "João Teixeira <joao@indielayer.com>",
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.26.0",
+    "@typescript-eslint/parser": "^2.26.0",
+    "typescript": "^3.8.2"
+  },
+  "peerDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
