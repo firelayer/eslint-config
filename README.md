@@ -8,6 +8,12 @@
 
 # Firelayer ESLint Config
 
+[![GitHub Actions](https://github.com/firelayer/eslint-config/workflows/ci/badge.svg?branch=master)](https://github.com/firelayer/eslint-config/actions?query=workflow%3Aci)
+[![npm (scoped with tag)](https://flat.badgen.net/npm/v/@firelayer/eslint-config)](https://npmjs.com/package/@firelayer/eslint-config)
+[![npm](https://flat.badgen.net/npm/dt/@firelayer/eslint-config)](https://npmjs.com/package/@firelayer/eslint-config)
+
+ESlint config used for Firelayer
+
 ## Getting Started
 
 Do you want to add the config to your own projects? There you go:
