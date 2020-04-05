@@ -1,6 +1,6 @@
 {
   "name": "@firelayer/eslint-config",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Firelayer eslint config",
   "homepage": "https://github.com/firelayer/eslint-config/tree/master/packages/eslint-config",
   "keywords": [
