@@ -20,6 +20,8 @@ module.exports = {
     'array-bracket-newline': 0,
     'array-bracket-spacing': ['error', 'never'],
     'no-multiple-empty-lines': ['error', { 'max': 1, 'maxEOF': 0, 'maxBOF': 0 }],
+    'keyword-spacing': ['error', { 'before': true, 'after': true }],
+    'space-infix-ops': 2,
     'no-console': 0,
     'no-regex-spaces': 0,
     'no-debugger': 0,
