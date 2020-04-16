@@ -11,24 +11,28 @@ module.exports = {
     'plugin:@typescript-eslint/recommended'
   ],
   rules: {
-    'quotes': ['error', 'single'],
-    'indent': ['error', 2],
+    // 0 - 'off'
+    // 1 - 'warn'
+    // 2 - 'error'
+    'quotes': [2, 'single'],
+    'indent': [2, 2],
     'semi': [2, 'never'],
-    'object-curly-spacing': ['error', 'always'],
-    'computed-property-spacing': ['error', 'never'],
-    'comma-dangle': ['error', 'never'],
+    'object-curly-spacing': [2, 'always'],
+    'computed-property-spacing': [2, 'never'],
+    'comma-dangle': [2, 'never'],
     'array-bracket-newline': 0,
-    'array-bracket-spacing': ['error', 'never'],
-    'no-multiple-empty-lines': ['error', { 'max': 1, 'maxEOF': 0, 'maxBOF': 0 }],
-    'keyword-spacing': ['error', { 'before': true, 'after': true }],
+    'array-bracket-spacing': [2, 'never'],
+    'no-multiple-empty-lines': [2, { 'max': 1, 'maxEOF': 0, 'maxBOF': 0 }],
+    'keyword-spacing': [2, { 'before': true, 'after': true }],
     'space-infix-ops': 2,
+    'space-before-blocks': 2,
     'no-console': 0,
     'no-regex-spaces': 0,
     'no-debugger': 0,
     'no-unused-vars': 0,
     'no-mixed-spaces-and-tabs': 0,
-    'prefer-const': 'error',
-    'prefer-destructuring': ['error', {
+    'prefer-const': 2,
+    'prefer-destructuring': [2, {
       AssignmentExpression: {
         array: false,
         object: false
@@ -41,10 +45,10 @@ module.exports = {
       enforceForRenamedProperties: false
     }
     ],
-    'arrow-parens': ['error', 'as-needed'],
-    'no-var': 'error',
+    'arrow-parens': [2, 'as-needed'],
+    'no-var': 2,
     'padding-line-between-statements': [
-      'error',
+      2,
       { blankLine: 'always', next: 'return', prev: '*' },
       { blankLine: 'always', next: '*', prev: ['const', 'let'] },
       { blankLine: 'any', next: ['const', 'let'], prev: ['const', 'let'] }
