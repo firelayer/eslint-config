@@ -46,6 +46,7 @@ module.exports = {
     }
     ],
     'arrow-parens': [2, 'always'],
+    'arrow-spacing': 2,
     'no-var': 2,
     'padding-line-between-statements': [
       2,
