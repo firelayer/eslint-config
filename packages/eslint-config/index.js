@@ -45,7 +45,7 @@ module.exports = {
       enforceForRenamedProperties: false
     }
     ],
-    'arrow-parens': [2, 'as-needed'],
+    'arrow-parens': [2, 'always'],
     'no-var': 2,
     'padding-line-between-statements': [
       2,
