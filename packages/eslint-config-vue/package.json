@@ -1,6 +1,6 @@
 {
   "name": "@firelayer/eslint-config-vue",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "description": "Firelayer eslint config with vue",
   "homepage": "https://github.com/firelayer/eslint-config/tree/master/packages/eslint-config-vue",
   "keywords": [
